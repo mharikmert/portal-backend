@@ -31,4 +31,4 @@ jobs:
         with:
           context: .
           push: true
-          tags: ghcr.io/${{ github.actor }}/portal-backend:v0.1.0 # {{ steps.tag_version.outputs.new_tag}}
+          tags: ghcr.io/${{ github.actor }}/backend:v0.1.0 # {{ steps.tag_version.outputs.new_tag}}
